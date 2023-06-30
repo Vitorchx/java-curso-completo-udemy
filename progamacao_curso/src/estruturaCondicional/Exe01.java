@@ -6,15 +6,17 @@ import java.util.Scanner;
 public class Exe01 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		
+
 		int i = scanner.nextInt();
-				
-				if (i < 0) {
-					System.out.println("NEGATIVO");
-					
-				}
-				else {System.out.println("NÃO NEGATIVO");}
-					
-				}
+
+		if (i < 0) {
+			System.out.println("NEGATIVO");
+
+		} else {
+			System.out.println("NÃO NEGATIVO");
+		}
+
+		scanner.close();
+	}
 
 }

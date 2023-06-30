@@ -19,5 +19,6 @@ public class Exe03 {
 		}else {
 			System.out.println("NÃO SÃO MULTIPLOS");
 		}
+		scanner.close();
 	}
 }

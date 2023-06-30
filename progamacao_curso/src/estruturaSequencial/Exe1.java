@@ -14,6 +14,7 @@ public class Exe1 {
 		
 		System.out.println(a+b);
 
+		scanner.close();
 	}
 
 }

@@ -17,6 +17,8 @@ public class Exe2 {
 
 		a = pi * r * r;
 		System.out.printf("A=%.4f%n", a);
+		
+		scanner.close();
 
 	}
 

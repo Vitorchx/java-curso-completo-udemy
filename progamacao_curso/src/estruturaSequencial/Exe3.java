@@ -14,6 +14,8 @@ public class Exe3 {
 		int c = scanner.nextInt();
 		int d = scanner.nextInt();
 		System.out.println("DIFERENCA = "+( a*b-c*d));
+		
+		scanner.close();
 	}
 
 }

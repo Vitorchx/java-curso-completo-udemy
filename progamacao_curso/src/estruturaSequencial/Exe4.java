@@ -17,6 +17,8 @@ public class Exe4 {
 		System.out.println("Numero Funcionário = " + numFuncionario);
 		System.out.printf("Salario = %.2f%n ", horasTrabalhadas * valorHora);
 
+	
+		scanner.close();
 	}
 
 }
